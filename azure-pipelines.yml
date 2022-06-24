@@ -21,9 +21,6 @@ steps:
 - task: PythonScript@0
   inputs:
     versionSpec: '$(python.version)'
-- task: PythonScript@0
-  inputs:
-  displayName: 'Use Python $(python.version)'
 
 - script: |
     python -m pip install --upgrade pip
