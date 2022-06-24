@@ -16,7 +16,6 @@ strategy:
 
 steps:
 - task: UsePythonVersion@0
-- task: PythonScript@0
 
 - task: PythonScript@0
   inputs:
