@@ -21,8 +21,7 @@ steps:
   inputs:
     versionSpec: '$(python.version)'
   displayName: 'Use Python $(python.version)'
-      scriptSource: 'filePath'
-    scriptPath: 'Mergesort.py'
+
 
 - script: |
     python -m pip install --upgrade pip
