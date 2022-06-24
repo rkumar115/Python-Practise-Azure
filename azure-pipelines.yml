@@ -17,7 +17,6 @@ steps:
 - task: UsePythonVersion@0
 - task: PythonScript@0
 
-  inputs:
 - task: PythonScript@0
   inputs:
     scriptSource: 'inline'
