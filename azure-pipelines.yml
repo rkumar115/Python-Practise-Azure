@@ -15,6 +15,10 @@ strategy:
 
 steps:
 - task: UsePythonVersion@0
+- task: PythonScript@0
+  inputs:
+    scriptSource: 'filePath'
+    scriptPath: 'Mergesort.py'
   inputs:
     versionSpec: '$(python.version)'
   displayName: 'Use Python $(python.version)'
